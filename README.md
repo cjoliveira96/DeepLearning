@@ -2,11 +2,11 @@
 
 ## Project Description
 
-This project aims to develop a deep learning model for skin cancer classification. The dataset that was used in this project consists of various skin lesion images, where each is associated with a specific type of skin cancer or lesion. Furthermore, the dataset also includes metadata containing personal information such as age and gender of the patients.
+This project aimed to develop a deep learning model for skin cancer classification. The dataset that was used in this project consisted of various skin lesion images, where each was associated with a specific type of skin cancer or lesion. Furthermore, the dataset also included metadata containing personal information such as location of the lesion, age and gender of the patient's.
 
 ## Dataset Details
-- The dataset comprises images from the HAM10000 competition (Human against Machines).
-- Each image corresponds to a specific skin cancer type, categorized as follows:
+- The dataset comprised images from the HAM10000 competition.
+- Each image corresponded to a specific skin cancer type, categorized as follows:
     - **Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)**
     - **Basal cell carcinoma (bcc)**
     - **Benign keratosis-like lesions (bkl)**
@@ -14,24 +14,25 @@ This project aims to develop a deep learning model for skin cancer classificatio
     - **Melanoma (mel)**
     - **Melanocytic nevi (nv)**
     - **Vascular lesions (vasc)**
+ 
+Although the data the team used on this project was given by the professor; the following link leads to the same dataset available on [Kaggle](https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification).
 
 ## Project Objective
-Our task was to build a deep learning model using CNN (Convolutional Neural Networks) that is able to accurately classify unseen images of skin lesions/cancer.
+Our task was to build a deep learning model using CNN (Convolutional Neural Networks) that was able to accurately classify unseen images of skin lesions (cancer).
 
-Since the group had access to both the images and metadata files, it was decided to try working with a functional API model in order to see if it could help improve the accuracy of the predictions of skin cancer. All of these choices can be revised and its results are available in the Report file in this repository.
+Since the group had access to both the images and metadata files, it was also decided to try working with a functional API model, in order to see if it could help improve the accuracy of the predictions of skin cancer. All of these choices can be revised and their results are available in the [Report](Report_Group6.pdf) in this repository.
 
 ## Possible Improvements
 While this project was able to successfully demonstrate a large efficiency in the classification of types of skin lesions (cancer) the following improvements can still be performed:
-1. Apply more image pre-processing techniques 
+1. Application of more image pre-processing techniques 
     - Given that the time for the development of the project, as well as the computational power, was rather limited, the team had to try only a specific range of pre-processing techniques and experiment further with the ones which gave the best results originally. Hence, with more time, more options could be explored to further enhance the performance of this classification algorithm.
 
-2. Experiment with other types of over or undersampling
-   - Given that the team had an imbalanced dataset on their hands, this really affected the performance of the model. Due to the lack of computational power, total oversampling nor undersampling were options that were not tried on this dataset. Hence, they could be interesting options to try on the future.
+2. Experimentation with other types of over or undersampling
+   - Since the team had an imbalanced dataset on their hands, it really affected the performance of the model. Due to the lack of computational power, neither total oversampling nor undersampling were options that were tried on this dataset. Hence, they could be interesting options to use in the future.
 
-4. More inclusive datasets
-   - The HAM10000 dataset only has images of lesions on white skin. This means, that if a picture of a lesion on darker skins would result in a lower performance of the model. Thus, as a way to improve the model and overall research on the efficiency of classification models on cancer prediction, models should be trained on darker skin conditions.
+4. Research on more inclusive datasets
+   - The HAM10000 dataset only contains images of lesions on white skin. This means, that if a picture of a lesion on darker skin was to be evaluated by our model it would most likely result in a lower performance of the classification process. Thus, as a way to improve the model and overall research on the efficiency of classification models on cancer prediction, models should be trained on darker skin conditions.
 
-     
 ## Repository Description
 This repository contains all the final files created during the development of our project. Hence, the following list contains a short description of how this repository is organized and what each file contains:
 - [README](README.md): file which contains all the basic information on the project (objectives, motivations, features and improvements);
