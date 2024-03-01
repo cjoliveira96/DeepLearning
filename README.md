@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project aimed to develop a deep learning model for skin cancer classification. The dataset that was used in this project consisted of various skin lesion images, where each was associated with a specific type of skin cancer or lesion. Furthermore, the dataset also included metadata containing personal information such as location of the lesion, age and gender of the patient's.
+This project aimed to develop a deep learning model for skin cancer classification. The dataset that was used in this project consisted of various skin lesion images, where each was associated with a specific type of skin cancer or lesion. Furthermore, the dataset also included metadata containing personal information such as location of the lesion, age and gender of the patients.
 
 ## Dataset Details
 - The dataset comprised images from the HAM10000 competition.
